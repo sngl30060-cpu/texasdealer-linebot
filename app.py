@@ -100,7 +100,7 @@ def handle(event):
             msg = "♻️ 已重置"
 
         else:
-            msg = "指令：/加入 /發牌 /重置"
+            return
 
         api.reply_message(
             ReplyMessageRequest(
