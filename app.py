@@ -21,7 +21,7 @@ config = Configuration(access_token=os.getenv("CHANNEL_ACCESS_TOKEN"))
 players_db = {}
 
 def create_deck():
-    suits = ['♠','♥','♦','♣']
+    suits = ['♠','♥','🔷','🍀']
     ranks = ['2','3','4','5','6','7','8','9','10','J','Q','K','A']
     deck = [f"{s}{r}" for s in suits for r in ranks]
     random.shuffle(deck)
